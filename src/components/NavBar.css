@@ -1,0 +1,72 @@
+.main-content {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .nav-links a.active {
+    color: #007bff;
+    position: relative;
+  }
+  
+  .nav-links a.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #007bff;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-right span {
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  .notifications {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .bell-icon::before {
+    content: '🔔'; /* Replace with actual icon */
+    font-size: 20px;
+  }
+  
+  .notification-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background: #007bff;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+  }
+  
+  .profile-icon::before {
+    content: '👤'; /* Replace with actual icon */
+    font-size: 20px;
+  }
+  
