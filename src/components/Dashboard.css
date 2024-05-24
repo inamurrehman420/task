@@ -22,7 +22,7 @@
   .auto-invest .switch {
     position: relative;
     display: inline-block;
-    width: 34px;
+    width: 46px;
     height: 20px;
   }
   
@@ -55,7 +55,7 @@
   }
   
   .auto-invest input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #80CB17;
   }
   
   .auto-invest input:checked + .slider:before {
@@ -109,4 +109,39 @@
   .chart {
     width: 45%;
   }
-  
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  background-color: #fff;
+}
+.interest-rate {
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+.interest-rate h4 {
+  font-size: 24px;
+  margin: 0;
+}
+.interest-rate p {
+  margin: 0;
+}
+.status {
+  color: #28a745;
+}
+.btn-stop {
+  background-color: #ff6b6b;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.btn-settings {
+  border: 1px solid #ced4da;
+  border-radius: 30px;
+  padding: 10px 20px;
+}

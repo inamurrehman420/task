@@ -20,15 +20,35 @@ const AutoInvest = () => {
       </div>
     </header>
     <section className="investment-details" style={{display:'block'}}>
-      <div className="strategy">
-        <h3>Conservative</h3>
-        <p>10-14% Interest Rate</p>
-        <p className="status active">Active</p>
-        <p>1500 SAR Max. Investment</p>
-        <p>26 Loans Funded</p>
-        <button className="stop">Stop</button>
-        <button className="change-settings">Change Settings</button>
-        <p className="start-date">* Strategy started at 20th March 2021</p>
+      <div className="container px-0 my-5">
+        <div className="card d-flex flex-row align-items-center">
+          <div className="interest-rate col-md-3 px-2 align-content-center">
+            <h3>Conservative</h3>
+            <p>10-14%</p>
+            <p>Interest Rate</p>
+          </div>
+          <div className="col-md-9 d-flex flex-column justify-content-center">
+            <div className="d-flex justify-content-between align-items-center">
+              <div className="ps-5" >
+                <p className="status">Active</p>
+                <p>Status</p>
+              </div>
+              <div>
+                <p>1500 SAR</p>
+                <p>Max. Investment</p>
+              </div>
+              <div>
+                <p>26</p>
+                <p>Loans Funded</p>
+              </div>
+              <div className="d-flex align-items-center">
+                <button className="btn btn-stop mr-2">Stop</button>
+                <button className="btn btn-settings">Change Settings</button>
+              </div>
+            </div>
+            <p className="text-muted mt-3">* Strategy started at 20th March 2021</p>
+          </div>
+        </div>
       </div>
       <div className="charts"style={{alignItems:'space-between'}}>
         <div className="invested ">
