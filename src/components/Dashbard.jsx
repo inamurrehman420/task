@@ -19,7 +19,7 @@ const AutoInvest = () => {
         </label>
       </div>
     </header>
-    <section className="investment-details" style={{display:'block'}}>
+    <section className="investment-details" style={{display:'block', Position:'absolute'}}>
       <div className="container px-0 my-5">
         <div className="card d-flex flex-row align-items-center">
           <div className="interest-rate col-md-3 px-2 align-content-center">
