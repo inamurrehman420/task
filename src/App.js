@@ -21,19 +21,21 @@ const Sidebar = () => (
             <div className="logo mb-4">
                 <img src="logo.png" alt="Lendo Logo" className="img-fluid logo mb-4" />
             </div>
-            <div className="balance mb-4 d-flex w-100 mb-5">
-                <img src="wallet.png" alt="Lendo Logo" className="img-fluid me-3" style={{ width: '20%' }} />
-                <div className="w-50">
-                    <h4>62,540 SAR</h4>
-                    <p>Account Balance</p>
-                </div>
-                <div className="w-25 d-flex align-items-center justify-content-center">
-                    <span>&gt;</span>
+            <div className="container my-5">
+                <div className="balance mb-4 d-flex w-100 mb-5">
+                    <img src="wallet.png" alt="Lendo Logo" className="img-fluid me-3"/>
+                    <div className="w-50">
+                        <h4>62,540 SAR</h4>
+                        <p>Account Balance</p>
+                    </div>
+                    <div className="w-25 d-flex align-items-center justify-content-center">
+                        <span>&gt;</span>
+                    </div>
                 </div>
             </div>
             <div className="buttons mb-5 d-flex">
                 <button className="btn btn-primary btn-block px-4 p-2 mb-2 me-3 rounded-pill">Deposit</button>
-                <button className="btn btn-outline-primary px-4 p-2 btn-block mb-2 rounded-pill">Withdraw</button>
+                <button className="btn btn-settings px-4 p-2 btn-block mb-2 rounded-pill">Withdraw</button>
             </div>
             <div className="verification d-flex mb-4">
                 <img src="warning.png" alt="Lendo Logo" className="img-fluid warning-icon mt-1 me-2" style={{ width: 'auto', height: '20px' }} />

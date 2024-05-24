@@ -30,23 +30,24 @@ const AutoInvest = () => {
           <div className="col-md-9 d-flex flex-column justify-content-center">
             <div className="d-flex justify-content-between align-items-center">
               <div className="ps-5" >
-                <p className="status">Active</p>
-                <p>Status</p>
+                <p className="status text-access fw-bold">Active</p>
+                <p className="text-left">Status</p>
               </div>
               <div>
-                <p>1500 SAR</p>
-                <p>Max. Investment</p>
+                <p className="fw-bold">1500 SAR</p>
+                <p className="text-left">Max. Investment</p>
               </div>
               <div>
-                <p>26</p>
-                <p>Loans Funded</p>
+                <p className="fw-bold">26</p>
+                <p className="text-left">Loans Funded</p>
               </div>
-              <div className="d-flex align-items-center">
-                <button className="btn btn-stop mr-2">Stop</button>
-                <button className="btn btn-settings">Change Settings</button>
-              </div>
+
             </div>
-            <p className="text-muted mt-3">* Strategy started at 20th March 2021</p>
+            <div className="d-flex align-items-end justify-content-end mt-3">
+              <button className="btn btn-stop me-3">Stop</button>
+              <button className="btn btn-settings">Change Settings</button>
+            </div>
+            <p className="text-muted mt-3 ps-5 ">* Strategy started at 20th March 2021</p>
           </div>
         </div>
       </div>
