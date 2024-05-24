@@ -10,14 +10,14 @@ export default function NavBar() {
   <a href="/">Auto-Invest</a>
   <a href="/">My Portfolio</a>
 </div>
-<div className="nav-right">
+<div className="nav-right me-4">
   <span>En</span>
   <div className="notifications">
-    <i className="bell-icon"></i>
-    <span className="notification-count">2</span>
+    <img src="bell.png" alt="Illustration" className="img-fluid text-center bell-icon" />
+
   </div>
   <div >
-    <i className="profile-icon"></i>
+    <img src="avatar.png" alt="Illustration" className="img-fluid text-center bell-icon" />
   </div>
 </div>
 </nav>

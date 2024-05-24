@@ -5,10 +5,10 @@ import FAQs from './components/faq';
 function App() {
   return (
     <div className='row' style={{display:'flex'}}>
-      <div className='col-4'>
+      <div className='col-3'>
           <Sidebar />
      </div>
-     <div className='col-8'>
+     <div className='col-9'>
       <MainContent />
       </div>
     </div>
@@ -24,7 +24,7 @@ const Sidebar = () => (
             <div className="balance mb-4 d-flex w-100 mb-5">
                 <img src="wallet.png" alt="Lendo Logo" className="img-fluid me-3" style={{ width: '20%' }} />
                 <div className="w-50">
-                    <h3>62,540 SAR</h3>
+                    <h4>62,540 SAR</h4>
                     <p>Account Balance</p>
                 </div>
                 <div className="w-25 d-flex align-items-center justify-content-center">
