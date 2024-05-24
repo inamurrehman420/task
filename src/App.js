@@ -17,32 +17,33 @@ function App() {
 
 const Sidebar = () => (
     <div className="container mt-5">
-        <div className="sidebar p-4">
+        <div className="sidebar py-4 px-5  border-end">
             <div className="logo mb-4">
-                <img src="logo.png" alt="Lendo Logo" className="img-fluid" />
+                <img src="logo.png" alt="Lendo Logo" className="img-fluid logo mb-4" />
             </div>
-            <div className="balance mb-4 d-flex w-100">
-                <img src="wallet.png" alt="Lendo Logo" className="img-fluid w-25" />
+            <div className="balance mb-4 d-flex w-100 mb-5">
+                <img src="wallet.png" alt="Lendo Logo" className="img-fluid me-3" style={{ width: '20%' }} />
                 <div className="w-50">
-                    <h3 >62,540 SAR</h3>
+                    <h3>62,540 SAR</h3>
                     <p>Account Balance</p>
                 </div>
-                <div className="w-25">
-                    >
+                <div className="w-25 d-flex align-items-center justify-content-center">
+                    <span>&gt;</span>
                 </div>
+            </div>
+            <div className="buttons mb-5 d-flex">
+                <button className="btn btn-primary btn-block px-4 p-2 mb-2 me-3 rounded-pill">Deposit</button>
+                <button className="btn btn-outline-primary px-4 p-2 btn-block mb-2 rounded-pill">Withdraw</button>
+            </div>
+            <div className="verification d-flex mb-4">
+                <img src="warning.png" alt="Lendo Logo" className="img-fluid warning-icon mt-1 me-2" style={{ width: 'auto', height: '20px' }} />
+                <p className="text-left">To withdraw more than 10,000 SAR you need to verify your banking account.</p>
+            </div>
 
-            </div>
-            <div className="buttons mb-4">
-                <button className="btn btn-primary btn-block mb-2">Deposit</button>
-                <button className="btn btn-outline-primary btn-block">Withdraw</button>
-            </div>
-            <div className="verification mb-4">
-                <p>To withdraw more than 10,000 SAR you need to verify your banking account.</p>
-            </div>
             <div className="illustration mb-4">
-                <img src="frame.png" alt="Illustration" className="img-fluid" />
+                <img src="frame.png" alt="Illustration" className="img-fluid text-center w-50" />
             </div>
-            <div className="trust">
+            <div className="trust px-5 text-center">
                 <h5>Why Should You Trust It?</h5>
                 <p>Because of this and that. Anyway investing is very good.</p>
             </div>
