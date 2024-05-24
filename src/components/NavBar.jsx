@@ -3,7 +3,7 @@ import './NavBar.css';
 
 export default function NavBar() {
   return (
-      <nav className="top-nav">
+      <nav className="top-nav py-5">
 <div className="nav-links">
   <a href="/">Overview</a>
   <a href="/">Invest</a>
